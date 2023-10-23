@@ -1,1 +1,2087 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR */
+.NavBar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbarsol{
+    width: 500px;
+    height: 49px;
+}
+.navbarsol img{
+    height: 45px;
+    width: auto;
+    margin-top: 4px;  
+}
 
+.navbarsag{
+    width: 500px;
+    height: 49px;
+}
+.navbarsag ul{
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.navbarsag ul li{
+    display: flex;
+    text-decoration: none;
+
+}
+
+.navbarsag ul li a {
+    font-size: medium;
+    font-family:'Gill Sans MT';
+    text-decoration: none;
+    color: black;
+    
+}
+
+#newsletters  {
+    position: relative;
+}
+#newsletters ::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: rgb(255, 204, 0);
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+#newsletters :hover::after{
+    width: 100%;
+}
+.takip1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 125px;
+    font-family:'Gill Sans MT';
+    font-size: 14px;
+    box-shadow: inset 0 0 0 0 rgb(255, 204, 0) ;
+    transition: ease-out 0.5s;
+
+}
+.takip1:hover{
+    box-shadow: inset 125px 0 0 0 rgb(255, 204, 0) ;
+    color: black;
+    
+
+}
+
+.container{
+    width: 100%;
+    height: 1242px;
+    background-color: black;  
+}
+.box1{
+    width: 1020px;
+    height: 276px;
+    top: 20px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.container .box1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 54px;
+    font-family:'Gill Sans MT';
+}
+.altbaslik .btn{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family:'Gill Sans MT';
+    box-shadow: inset 0 0 0 0 rgb(255, 204, 0) ;
+    transition: ease-out 0.5s;
+    width: 95px;
+    height: 30px;
+    
+    
+}
+.altbaslik .btn:hover{
+    box-shadow: inset 95px 0 0 0 rgb(255, 204, 0) ;
+    color: black;
+}
+.altbaslik span {
+    color: white;
+    font-family:'Gill Sans MT';
+    font-size: 1.5rem;
+    margin-left: 165px;
+    margin-right: 165px;
+    justify-content: center;
+
+}
+.altbaslik span a{
+    text-decoration-color:rgb(255, 204, 0);
+    color: white;
+}
+.altbaslik span a:hover{
+    color: black;
+}
+.tire{
+    margin-top: 0;
+    width: 95px;
+    height: 2px;
+    background-color:rgb(255, 204, 0) ;
+    margin-left: 165px;
+}
+.alttire{
+    width: 60px;
+    height: 4px;
+    background-color:rgb(255, 204, 0) ;
+    margin-left: 460px;
+    margin-top: 26px;
+
+}
+
+/* ORTA-PART1SOL */
+.part1sol{
+    width: 313px;
+    height: 886px;
+    margin-left: 165px;
+    background-color: black;
+    
+}
+.part1sol .box2{
+    width: 313px;
+    height: 40px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+}
+.part1sol .box2 .dikcizgi{
+    width: 5px;
+    height: 25px;
+    background-color:rgb(255, 204, 0) ;
+    border: none;
+    margin-top: 7.5px;
+}
+.part1sol .box2 #baslik2{
+    font-size: 32px;
+    font-family:'Gill Sans MT';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.part1sol .box3{
+    width: 313px;
+    height: 96px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part1sol .box3 a {
+    text-decoration: none;
+}
+
+.part1sol .box3 .img{
+    width: 40px;
+    height: 35px;
+}
+.part1sol .box3 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part1sol .box3 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part1sol .box3 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part1sol .box3 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+.part1sol .box4{
+    width: 313px;
+    height: 96px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part1sol .box4 a {
+    text-decoration: none;
+}
+
+.part1sol .box4 .img{
+    width: 40px;
+    height: 35px;
+}
+.part1sol .box4 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part1sol .box4 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part1sol .box4 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part1sol .box5{
+    width: 313px;
+    height: 96px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part1sol .box5 a {
+    text-decoration: none;
+}
+.part1sol .box5 .img{
+    width: 40px;
+    height: 35px;
+}
+.part1sol .box5 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part1sol .box5 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part1sol .box5 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part1sol .box6{
+    width: 313px;
+    height: 96px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part1sol .box6 a {
+    text-decoration: none;
+}
+.part1sol .box6 .img{
+    width: 40px;
+    height: 35px;
+}
+.part1sol .box6 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part1sol .box6 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part1sol .box6 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part1sol .box6 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+.part1sol .box7{
+    width: 313px;
+    height: 96px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part1sol .box7 a {
+    text-decoration: none;
+}
+.part1sol .box7 .img{
+    width: 40px;
+    height: 35px;
+}
+.part1sol .box7 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part1sol .box7 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part1sol .box7 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part1sol .box8{
+    width: 313px;
+    height: 96px;
+    background-color: black;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part1sol .box8 a {
+    text-decoration: none;
+}
+.part1sol .box8 .img{
+    width: 40px;
+    height: 35px;
+}
+.part1sol .box8 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part1sol .box8 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part1sol .box8 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part1sol .box8 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+.part1sol .box9{
+    width: 313px;
+    height: 18px;
+    background-color: black;
+    margin-block-end: 52px;
+}
+.part1sol .box9 a{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    height: 18px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 204, 0);
+}
+.part1sol .box9 a:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+    transition: all 0.5s ease 0s;
+}
+/* PART-2 */
+.orta{
+    display: flex;
+}
+.historymagazine{
+    width: 662px;
+    height: 417px;
+    box-shadow: 5px 5px rgb(255, 204, 0);
+    overflow: hidden;
+    margin-left:30px
+}
+
+.historymagazine img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease ;
+    box-shadow: 5px 5px rgb(255, 204, 0);
+}
+.historymagazine img:hover{
+    transform: scale(1.1);
+
+}
+.historymagazinealt{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 42px;
+    text-decoration: none;
+}
+.historymagazinealt a{
+    text-decoration: none;
+}
+.sience{
+    width: 313px;
+    height: 423px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.siencekutu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.siencekutu img:hover{
+    transform: scale(1.1);
+}
+.sience i{
+    display: flex;
+    color: rgb(255, 204, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sience #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sience #read p{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size:13px
+}
+.sience i p{
+    color: rgb(85, 85, 85);
+    font-family:'Gill Sans MT';
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 1px;
+    position: relative;
+
+}
+.sience i p::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(85, 85, 85);
+}
+.sience i p:hover::after{
+    width: 100%;
+}   
+.sience h5{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.history{
+    width: 313px;
+    height: 423px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.historykutu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.historykutu img:hover{
+    transform: scale(1.1);
+}
+
+.history h5 p{
+    color: rgb(85, 85, 85);
+    font-family:'Gill Sans MT';
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+.history h5 p::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(85, 85, 85);
+}
+.history h5 p:hover::after{
+    width: 66%;
+}
+.history h5{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.history #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.history #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+.history #read p{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size:13px ;
+    margin-left: 18px;
+    margin-top: 1px;
+}
+.gif{
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.3)), url(https://thumbs.gfycat.com/AbleNeglectedCrossbill-max-1mb.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+.gif .wildlife {
+    position: absolute;
+    font-family:'Gill Sans MT';
+    font-size:22px;
+    font-weight: bold;
+    color: white;
+    margin-left:608px;
+    margin-top:30%;
+}
+.text{
+    width: 728px;
+    height: 81px;
+    position: absolute;
+    font-family:'Gill Sans MT';
+    font-size:19px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 34%;
+    margin-left: 311px;
+}
+.watchnow{
+    width: 117px;
+    height: 22px;
+    text-align: center;
+    margin-top: 42%;
+    margin-left: 545px;
+}
+.watchnow a{
+    position: absolute;
+    font-family:'Gill Sans MT';
+    font-size:19px;
+    font-weight: bold;
+    color: white;
+    text-decoration-color: rgb(255, 204, 0);
+    text-decoration-line: underline;
+}
+.watchnow a:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+    transition: all 0.5s ease 0s;
+}
+.container2{
+    width: 100%;
+    height: 1012px;
+    background-color: black;
+}
+
+.discover{
+    width: 1020px;
+    height: 27px;
+    margin-left: 165px;
+    margin-top: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.discover #text{
+    color: white;
+    text-decoration: none;
+    margin-left: 27px;
+    margin-top: 15px;
+}
+.discover a h5{
+    margin-top: 20px;
+    margin-right: 28px;
+    color: white;
+    font-family:'Gill Sans MT';
+    text-decoration: underline  rgb(255, 204, 0);
+    height: 20px;
+    background-color: black;
+}
+.discover a h5:hover{
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(255, 204, 0);
+    color: black;
+    transform: all 0.5s ease;
+}
+.filmlist ul {
+    width: 1020px;
+    height: 258px;
+    margin-top: 24px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    overflow: hidden;
+}
+.filmlist ul li a{
+    width: 172px;
+    height: 258px;
+    
+}
+.filmlist ul li a img{
+    width: 172px;
+    height: 258px;
+    object-fit: cover;
+    transition: transform 0.3s ease ;
+}
+.filmlist ul li a img:hover{
+    transform: scale(1.1);
+}
+.natGeo{
+    width: 1020px;
+    height: 233px;
+    margin-top: 105px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.natGeo p{
+    color: white;
+    font-size: 54px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    font-family:'Gill Sans MT';
+    text-align: center;
+}
+.natGeo .alttire2{
+    width: 60px;
+    height: 4px;
+    margin-top: 21px;
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+}
+.pyramid{
+    width: 100%;
+    height: 691px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.bir{
+    width: 400px;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.ikiuc img{
+    width: 300px;
+    height: 530px;
+    margin-top: 75px;
+}
+  
+.ikiuc{
+    width: 700px;
+    height: 466px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+.dortbes img{
+    width: 300px;
+    height:460px;
+    margin-top: 135px;
+  
+}
+.dortbes{
+    width: 1200px;
+    height: 406px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 0;
+}
+.watchnow2{
+    width: 330px;
+    height: 53px;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 495px;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 204, 0);
+    font-weight: bold;
+    color:black;
+    border: none;
+    height: 45px;
+    width: 170px;
+    font-family:'Gill Sans MT';
+    font-size: 14px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.5s;
+
+}
+.watch:hover{
+    box-shadow: inset 170px 0 0 0 white;
+    color: black;
+}
+  
+
+/* ORTA-PART2SOL */
+
+.part2sağ{
+    width: 313px;
+    height: 886px;
+    margin-left: 40px;
+    margin-top: 258px;
+    
+    
+}
+.part2sağ #altbaslik1{
+    
+    position: relative;
+}
+.part2sağ #altbaslik1::after{
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+
+}
+.part2sağ #altbaslik1:hover::after{
+    width: 82%;
+}
+.part2sağ .box2{
+    width: 313px;
+    height: 40px;
+    margin-block-end: 30px;
+    display: flex;
+}
+.part2sağ .box2 .dikcizgi{
+    width: 5px;
+    height: 25px;
+    background-color:rgb(255, 204, 0) ;
+    border: none;
+    margin-top: 7.5px;
+}
+.part2sağ .box2 #baslik2{
+    font-size: 32px;
+    font-family:'Gill Sans MT';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.part2sağ .box3{
+    width: 313px;
+    height: 96px;;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2sağ .box3 a {
+    text-decoration: none;
+}
+.part2sağ .box3 .img{
+    width: 40px;
+    height: 35px;
+}
+.part2sağ .box3 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part2sağ .box3 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part2sağ .box3 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part2sağ .box3 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+.part2sağ .box4{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2sağ .box4 a {
+    text-decoration: none;
+}
+.part2sağ .box4 .img{
+    width: 40px;
+    height: 35px;
+}
+.part2sağ .box4 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part2sağ .box3 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part2sağ .box4 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part2sağ .box5{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2sağ .box5 a {
+    text-decoration: none;
+}
+.part2sağ .box5 .img{
+    width: 40px;
+    height: 35px;
+}
+.part2sağ .box5 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part2sağ .box5 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part2sağ .box5 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part2sağ .box6{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2sağ .box6 a {
+    text-decoration: none;
+}
+
+.part2sağ .box6 .img{
+    width: 40px;
+    height: 35px;
+}
+.part2sağ .box6 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part2sağ .box6 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part2sağ .box6 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part2sağ .box6 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+
+.part2sağ .box7{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2sağ .box7 a {
+    text-decoration: none;
+}
+
+.part2sağ .box7 .img{
+    width: 40px;
+    height: 35px;
+}
+.part2sağ .box7 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part2sağ .box7 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part2sağ .box7 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.part2sağ .box9{
+    width: 313px;
+    height: 18px;
+    background-color: black;
+    margin-block-end: 52px;
+}
+.part2sağ .box9 a{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    height: 18px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 204, 0);
+}
+.part2sağ .box9 a:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+    transition: all 0.5s ease 0s;
+}
+/* PART-2 */
+.orta2{
+    display: flex;
+    background-color: black;
+    margin-top: 385px;
+    background-repeat: no-repeat;
+    height: 1200px;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.2)), url(https://i.natgeofe.com/n/7182c9cb-b0f1-4490-8386-ce2ae7ab900a/nationalgeographic_2384595_3x2.jpg?w=1440&h=960);
+}
+.basliktravel{
+    width: 1020px;
+    height: 233px;
+    display: flex;
+    justify-content: center;
+    margin-top:-1235px;
+    
+}
+.basliktravel p{
+    font-weight: bold;
+    font-size: 54px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-top: 175px;
+    margin-left: 330px;  
+}
+.altcizgi{
+    width: 60px;
+    height: 4px;
+    background-color:rgb(255, 204, 0) ;
+    margin-top: 30px;
+    margin-left: 645px;
+    
+}
+.part2sol{
+    margin-left: 165px;
+    margin-top: 258px;
+}
+.historymagazine2{
+    width: 662px;
+    height: 417px;
+    overflow: hidden;
+    margin-left:30px
+}
+
+.historymagazine2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease ;   
+}
+.historymagazine2 img:hover{
+    transform: scale(1.1);
+
+}
+.historymagazinealt2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 42px;
+    text-decoration: none;
+}
+.historymagazinealt2 a{
+    text-decoration: none;
+}
+.sience2{
+    width: 313px;
+    height: 423px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.siencekutu2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.siencekutu2 img:hover{
+    transform: scale(1.1);
+}
+.sience2 i{
+    display: flex;
+    color: rgb(255, 204, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sience2 #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sience2 #read p{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size:13px
+}
+.sience2 i p{
+    color: rgb(85, 85, 85);
+    font-family:'Gill Sans MT';
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 1px;
+    position: relative;
+
+}
+.sience2 i p::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(85, 85, 85);
+}
+.sience2 i p:hover::after{
+    width: 100%;
+}   
+.sience2 h5{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.history2{
+    width: 313px;
+    height: 423px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.historykutu2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.historykutu2 img:hover{
+    transform: scale(1.1);
+}
+
+.history2 h5 p{
+    color: rgb(85, 85, 85);
+    font-family:'Gill Sans MT';
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+.history2 h5 p::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(85, 85, 85);
+}
+.history2 h5 p:hover::after{
+    width: 66%;
+}
+.history2 h5{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.history2 #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.history2 #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+.history2 #read p{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size:13px ;
+    margin-left: 18px;
+    margin-top: 1px;
+}
+.podcast{
+    width: 1020px;
+    height: 662px;
+    background-color: white;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 1050px;
+}
+.podcast1{
+    font-weight: bold;
+    font-family:'Gill Sans MT' ;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 3.5px;
+    color: black;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.podcast2{
+    width: 1020px;
+    height: 392px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kutu1{
+    width: 315px;
+    height: 210px;
+    background-color: black;
+    overflow: hidden;  
+}
+.kutu1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.kutu1 img:hover{
+    transform: scale(1.1);
+}
+
+.kutu2{
+    width: 315px;
+    height: 210px;
+    background-color: black;
+    overflow: hidden;
+}
+.kutu2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.kutu2 img:hover{
+    transform: scale(1.1);
+}
+.kutu3{
+    width: 315px;
+    height: 210px;
+    background-color: black;
+    overflow: hidden;
+}
+.kutu3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.kutu3 img:hover{
+    transform: scale(1.1);
+}
+.applepodcast{
+    width: 330px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    margin-left: 350px;
+}
+.apppod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 204, 0);
+    font-weight: bold;
+    color:black;
+    border: none;
+    height: 45px;
+    width: 280px;
+    font-family:'Gill Sans MT';
+    font-size: 12px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.5s;
+
+}
+.apppod:hover{
+    box-shadow: inset 280px 0 0 0 white;
+    color: black;
+}
+
+.boxx{
+    width: 1020px;
+    height: 0px;
+    top: 20px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.boxx h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 54px;
+    font-family:'Gill Sans MT';
+    margin-top: 280px;
+}
+.altbaslik3 .btn{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family:'Gill Sans MT';
+    box-shadow: inset 0 0 0 0 rgb(255, 204, 0) ;
+    transition: ease-out 0.5s;
+    width: 95px;
+    height: 30px;
+    
+    
+}
+.altbaslik3 .btn:hover{
+    box-shadow: inset 95px 0 0 0 rgb(255, 204, 0) ;
+    color: black;
+}
+.altbaslik3 span {
+    color: white;
+    font-family:'Gill Sans MT';
+    font-size: 1.5rem;
+    margin-left: 165px;
+    margin-right: 165px;
+    justify-content: center;
+
+}
+.altbaslik3 span a{
+    text-decoration-color:rgb(255, 204, 0);
+    color: white;
+}
+.altbaslik3 span a:hover{
+    color: black;
+}
+.tire3{
+    margin-top: 0;
+    width: 95px;
+    height: 2px;
+    background-color:rgb(255, 204, 0) ;
+    margin-left: 165px;
+}
+.alttire3{
+    width: 60px;
+    height: 4px;
+    background-color:rgb(255, 204, 0) ;
+    margin-left: 460px;
+    margin-top: 26px;
+
+}
+.orta3{
+    display: flex;
+    background-color: black;
+    height: 1200px;
+}
+.part3sol{
+    margin-left: 165px;
+    margin-top: 258px;
+    
+}
+.historymagazine3{
+    width: 662px;
+    height: 417px;
+    overflow: hidden;
+}
+
+.historymagazine3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease ;
+}
+.historymagazine3 img:hover{
+    transform: scale(1.1);
+
+}
+.magazine3 p{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+.historymagazinealt3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    text-decoration: none;
+    width: 663px;
+}
+.historymagazinealt3 a{
+    text-decoration: none;
+}
+.sience3{
+    width: 313px;
+    height: 423px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.siencekutu3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.siencekutu3 img:hover{
+    transform: scale(1.1);
+}
+.sience3 i{
+    display: flex;
+    color: rgb(255, 204, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sience3 #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.sience3 #read p{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size:13px
+}
+.sience3 i p{
+    color: rgb(85, 85, 85);
+    font-family:'Gill Sans MT';
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 1px;
+    position: relative;
+
+}
+.sience3 i p::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(85, 85, 85);
+}
+.sience3 i p:hover::after{
+    width: 100%;
+}   
+.sience3 h5{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.history3{
+    width: 313px;
+    height: 423px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.historykutu3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  
+}
+.historykutu3 img:hover{
+    transform: scale(1.1);
+}
+
+.history3 h5 p{
+    color: rgb(85, 85, 85);
+    font-family:'Gill Sans MT';
+    font-size: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+.history3 h5 p::after{
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(85, 85, 85);
+}
+.history3 h5 p:hover::after{
+    width: 66%;
+}
+.history3 h5{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.history3 #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.history3 #read{
+    display: flex;
+    color: black;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+.history3 #read p{
+    color: black;
+    font-family:'Gill Sans MT';
+    font-size:13px ;
+    margin-left: 18px;
+    margin-top: 1px;
+}
+.part3sağ{
+    margin-top: 250px;
+    margin-left: 40px;
+}
+.part3sağ .box2{
+    width: 313px;
+    height: 40px;
+    margin-block-end: 30px;
+    display: flex;
+}
+.part3sağ .box2 .dikcizgi{
+    width: 5px;
+    height: 25px;
+    background-color:rgb(255, 204, 0) ;
+    border: none;
+    margin-top: 7.5px;
+}
+.part3sağ .box2 #baslik2{
+    font-size: 32px;
+    font-family:'Gill Sans MT';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.part3sağ .box3{
+    width: 313px;
+    height: 96px;;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3sağ .box3 a {
+    text-decoration: none;
+}
+
+.part3sağ .box3 .img{
+    width: 40px;
+    height: 35px;
+}
+.part3sağ .box3 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part3sağ .box3 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part3sağ .box3 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part3sağ .box3 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+.part3sağ .box4{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3sağ .box4 a {
+    text-decoration: none;
+}
+.part3sağ .box4 .img{
+    width: 40px;
+    height: 35px;
+}
+.part3sağ .box4 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part3sağ .box4 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part3sağ .box4 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part3sağ .box5{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3sağ .box5 a {
+    text-decoration: none;
+}
+.part3sağ .box5 a p{
+    
+    position: relative;
+}
+.part3sağ .box5 a p::after{
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+
+}
+.part3sağ .box5 a p:hover::after{
+    width: 82%;
+}
+
+.part3sağ .box5 .img{
+    width: 40px;
+    height: 35px;
+}
+.part3sağ .box5 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part3sağ .box5 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part3sağ .box5 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.part3sağ .box6{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3sağ .box6 a {
+    text-decoration: none;
+}
+.part3sağ .box6 .img{
+    width: 40px;
+    height: 35px;
+}
+.part3sağ .box6 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+    line-height: 19px;
+}
+.part3sağ .box6 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white
+}
+.part3sağ .box6 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.part3sağ .box6 #altbaslik1 i{
+    font-size: medium;
+    color: rgb(255, 204, 0);
+    letter-spacing: 10px;
+    padding-block-start: 5px;
+    display: flex;
+}
+.part3sağ .box7{
+    width: 313px;
+    height: 96px;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.part3sağ .box7 a {
+    text-decoration: none;
+}
+.part3sağ .box7 .img{
+    width: 40px;
+    height: 35px;
+}
+.part3sağ .box7 #altbaslik1{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    color: white;
+    margin-left: 20px;
+}
+.part3sağ .box7 #altbaslik1:hover{
+    text-decoration: underline;
+    color:white;
+}
+.part3sağ .box7 #altbaslik1 p{
+    font-size: 12px;
+    color: white;
+    display: contents;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.part3sağ .box9{
+    width: 313px;
+    height: 18px;
+    background-color: black;
+    margin-block-end: 52px;
+}
+.part3sağ .box9 a{
+    font-size: 16px;
+    font-family:'Gill Sans MT';
+    height: 18px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 204, 0);
+}
+.part3sağ .box9 a:hover{
+    background-color: rgb(255, 204, 0);
+    color: black;
+    transition: all 0.5s ease 0s;
+}
+.society{
+    width: 100%;
+    height: 728px;
+    background-color: rgb(242, 242, 242);
+}
+.societybaslik{
+    width: 1020px;
+    height: 233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+}
+.societybaslik p{
+    color: black;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-family:'Gill Sans MT';
+    text-align: center;
+    width: 980px;
+}
+.societybaslik .societyalttire{
+    width: 60px;
+    height: 4px;
+    margin-top: 21px;
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+}
+.divingphoto{
+    width: 1020px;
+    height: 353px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 185px;
+}
+.divingphoto a{
+    text-decoration: none;
+}
+.divingphoto p{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-family:'Gill Sans MT';
+    text-align: start;
+    margin-left: 30px;  
+}
+.divingphoto p .bslk{
+    font-size: 26px;
+}
+.son{
+    width: 100%;
+    height: 302px;
+    background-size: cover;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.3)), url(https://i.natgeofe.com/n/2e2421a3-f3cb-485f-b482-753cce8baaa0/MossForest.adapt.885.1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.son h3{
+    font-family:'Gill Sans MT';
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-size: 29px;
+    
+}   
+.son p{
+    font-family:'Gill Sans MT';
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+.singup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(255, 204, 0);
+    font-weight: bold;
+    color:black;
+    border: none;
+    height: 45px;
+    width: 280px;
+    font-family:'Gill Sans MT';
+    font-size: 14px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.5s;
+    margin-top: 45px;
+
+}
+.singup:hover{
+    box-shadow: inset 280px 0 0 0 white;
+    color: black;
+}
+.singup a{
+    text-decoration: none;
+    color: black;
+}
+
+.soncontainer{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.soncontainer .son2{
+    width: 1080px;
+    height: 470px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.kutular1{
+    width: 260px;
+    height: 404px;
+    background-color: black;
+}
+.kutular1 ul{
+    color: white;
+    list-style: none;
+    font-family:'Gill Sans MT';
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.kutular1 ul li b{
+    font-size: 15px;
+}
+.kutular1 ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.kutular2{
+    width: 260px;
+    height: 404px;
+    background-color: black;
+}
+.kutular2 ul{
+    color: white;
+    list-style: none;
+    font-family:'Gill Sans MT';
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.kutular2 ul li b{
+    font-size: 15px;
+}
+.kutular2 ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.kutular3{
+    width: 260px;
+    height: 404px;
+    background-color: black;
+}
+.kutular3 ul{
+    color: white;
+    list-style: none;
+    font-family:'Gill Sans MT';
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.kutular3 ul li b{
+    font-size: 15px;
+}
+.kutular3 ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.kutular4{
+    width: 260px;
+    height: 404px;
+    background-color: black;
+}
+.kutular4 ul{
+    color: white;
+    list-style: none;
+    font-family:'Gill Sans MT';
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.icon ul{
+    display: flex;
+    justify-content: start;
+    letter-spacing: 23px;
+}
+.icon ul li a i{
+    font-size: 23px;
+    text-align: left;
+}
+.icon ul li a i:hover{
+    color: blue;
+}
+.kutular4 ul li img{
+    width: 21px;
+    height: 13px;
+}
+.kutular4 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.kutular4 ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.line{
+    border: 0;
+    border-top: 1px solid #333;
+    display: block;
+    height: 1px;
+}
+.footer{
+    background-color: black;
+    height: 70px;
+}
+.footeric{
+    width: 1080px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 155px;
+}
+.logoson img{
+    width: 140px;
+    height: 50px;
+}
+.yazi1,.yazi2{
+    color: grey;
+    font-size: 15px;
+}
